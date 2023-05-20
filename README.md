@@ -29,20 +29,26 @@ UI Options:
 Behavior Options:
 - Change the amount of time between each new effect
 - Twitch voting
+- Trigger an effect when someone subscribes on Twitch
 - Synced effects, using a global timer to make multiple instances of the mod on different PCs have the same effects happen simultaneously
+- Bind a key to triggering an effect
 
 Effect Options:
-- Preset filters to disable unstable and/or controversial effects
+- Preset filters to disable unstable, controversial or DMCA effects
 - Manual tweaks to effects, letting you change the length of and disable any effect
 
 Audio Options:
 - Change the volume of effects that have sound
 
+Difficulty Options:
+- Change the difficulty to change the available effects and the frequency of bad effects
+
 Twitch Voting Options:
 - Choose whether the mod reconnects to Twitch automatically
-- Change the theme of the voting display (Light or Dark Mode)
+- Change the color scheme of the voting display
 - Choose between proportional and majority voting (Proportional: Votes are a percentage chance, Majority: The effect with the most votes always wins)
 - Change the command for voting (1 2 3 4 or c1 c2 c3 c4)
+- Change the amount of effects available to be voted on (any amount between 2 and 9)
 - Make the voting command alternate between 1 2 3 4 and 5 6 7 8 to prevent votes bleeding over, and to allow more than one identical vote per 30 seconds on Twitch
 - Change the method in which the voting display is drawn (Separate window, on-screen or in an .html file)
 - Mark Unpicked Effects (Off: The same effect will not be available again until every other effect has won the vote at least once, On: The same effect will not be available again until every other effect has appeared in the voting window)
